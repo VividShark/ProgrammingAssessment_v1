@@ -80,18 +80,6 @@ while rounds_played < num_rounds:
 
 print("\nThanks for playing!")
 
-# --- Game Over Summary & History ---
-print("\n--- Game Over ---")
-print(f"Final Score: {score} / {num_rounds}")
-
-show_history = yes_no("\nDo you want to see your game history? ")
-if show_history == "yes":
-    print("\n📜 --- Game History ---")
-    for round_summary in game_history:
-        print(round_summary)
-
-print("\nThanks for playing!")
-
 
 
 
